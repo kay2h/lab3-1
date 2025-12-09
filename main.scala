@@ -203,7 +203,7 @@ object FunctionalMonteCarloIntegration {
     // pattern matching Функциональный способ разбора вариантов
     integralMonteCarloSafe(linearFunction, lowerBound, upperBound, totalPoints, numThreads) match {
       case Right(result) =>
-        println(s"\n✓ Calculation completed successfully")
+        println(s"\n Calculation completed successfully")
         println(s"Function: f(x) = x")
         println(s"Integration interval: [$lowerBound, $upperBound]")
         println(s"Number of threads: $numThreads")
